@@ -9,7 +9,7 @@
 </head>
 <?php
 include 'dbcon.php';
-include './style/style.php';
+// include './style/style.php';
 include './style/adminLogin.php';
 
 
@@ -32,7 +32,7 @@ if (isset($_POST['signinbtn'])) {
 
             if ($pass_decode) {
                 echo "login successful";
-                header('location:org_table.php');
+                header("location: org_table.php");
             } else {
                 echo " Password Incorrect ";
             }

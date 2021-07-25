@@ -1,5 +1,5 @@
 <?php
-include 'dashconn.php';
+include 'dbcon.php';
 
 
 $sql =" select * from dashboard_form";
@@ -43,7 +43,6 @@ if($query)
                 <th>Blood_group</th>
                 <th>State</th>
                 <th>City</th>
-                <th>Date_Time</th>
             </tr>
             <?php
         // output data of each row
@@ -57,7 +56,6 @@ if($query)
                 <td><?php echo $info['blood_group']; ?></td>
                 <td><?php echo $info['state']; ?></td>
                 <td><?php echo $info['city']; ?></td>
-                <td><?php echo $info['date_and_time']; ?></td><br>
             </tr>
             <?php 
         }
@@ -73,7 +71,7 @@ else
 }
 
 
-include 'org_con.php';
+include 'org_conn.php';
 $sql1 =" select * from org_form";
 $query1 = mysqli_query($con, $sql1);
 if($query1)
@@ -95,7 +93,6 @@ if($query1)
                 <th>State</th>
                 <th>City</th>
                 <th>Info</th>
-                <th>Date_Time</th>
             </tr>
             <?php
         // output data of each row
@@ -109,7 +106,6 @@ if($query1)
                 <td><?php echo $info1['state']; ?></td>
                 <td><?php echo $info1['city']; ?></td>
                 <td><?php echo $info1['info']; ?></td>
-                <td><?php echo $info1['date_time']; ?></td><br>
             </tr>
             <?php 
         }
