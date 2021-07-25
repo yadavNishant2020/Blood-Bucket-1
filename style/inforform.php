@@ -1,3 +1,4 @@
+<style>
 .navbar ul {
     position: absolute;
     right: 3.6rem;
@@ -62,3 +63,4 @@
     max-width: 100%;
     max-height: 100%;
 }
+</style>

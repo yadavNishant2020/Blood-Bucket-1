@@ -2,7 +2,6 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="edit_style.php">
     <title>Contact Form #4</title>
 </head>
 
@@ -43,6 +42,7 @@ alert("Not updated .");
 <?php
                 }
             }
+            include 'edit_style.php';
    ?>
 
 <body>

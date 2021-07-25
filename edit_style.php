@@ -1,3 +1,4 @@
+<style>
 html {
   background-image: linear-gradient(#ff512f, rgb(192, 58, 174));
   background-size: cover;
@@ -141,3 +142,4 @@ small {
   font-weight: 300;
   margin-top: 10px;
 }
+</style>

@@ -1,3 +1,4 @@
+<style>
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 * {
@@ -369,3 +370,4 @@ ul li {
   letter-spacing: 1px;
   color: #0b62d3;
 }
+</style>

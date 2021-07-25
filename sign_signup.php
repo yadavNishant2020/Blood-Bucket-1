@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./style/signup.php">
     <title>reg</title>
 </head>
 <?php 
@@ -22,6 +21,8 @@ include 'dbcon.php';
             include 'signin.php';            
         }
     }
+
+    include './style/signup.php';
 ?>
 
 <body id="form" style="background-image: url(./assets/formbg.jpg); background-size: cover;">

@@ -1,5 +1,4 @@
 <head>
-    <link rel="stylesheet" href="./style/style.php">
     <style>
     .table {
         font-size: 1rem;
@@ -22,6 +21,8 @@ $query = mysqli_query($con, $sql);
 if ($query) {
     $num_rows = mysqli_num_rows($query);
     if ($num_rows) {
+
+        include './style/style.php';
 ?>
 
 <body style="background-image: url(./assets/images/editbg.jpg); background-size: cover;">

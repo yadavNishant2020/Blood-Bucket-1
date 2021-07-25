@@ -1,3 +1,4 @@
+<style>
 .navbar ul {
     position: absolute;
     right: 3.6rem;
@@ -35,3 +36,4 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
+</style>

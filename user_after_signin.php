@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signing In</title>
-    <link rel="stylesheet" href="./style/style.php">
     <style>
     * {
         padding: 0;
@@ -87,6 +86,9 @@
     }
     </style>
 </head>
+<?php
+include './style/style.php';
+?>
 
 <body style="background-image: url(./assets/images/editbg.jpg); background-size: cover;">
     <h1 style=" 

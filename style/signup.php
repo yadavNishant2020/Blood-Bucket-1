@@ -1,3 +1,4 @@
+<style>
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
 
 * {
@@ -281,3 +282,4 @@ input[type="radio"] {
 #signIn:checked ~ label.signUp {
   color: #000;
 }
+</style>
