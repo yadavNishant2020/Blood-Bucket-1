@@ -1,9 +1,8 @@
-<?php 
+<?php
 
 $server = "sql6.freesqldatabase.com";
-$user = "sql6427522";
-$password = "Ckeif2P1Fv";
-$db = "sql6427522";
+$user = "sql6427591";
+$password = "TmhAlQtSBq";
+$db = "sql6427591";
 
-$con = mysqli_connect($server,$user,$password,$db );
-?>
+$con = mysqli_connect($server, $user, $password, $db);

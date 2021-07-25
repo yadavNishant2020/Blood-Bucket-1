@@ -64,5 +64,3 @@ if($query){
     // $count++;
 }
 // echo "AB- =",  $ab1;
-
-?>

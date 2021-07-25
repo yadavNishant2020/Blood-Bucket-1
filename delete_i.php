@@ -1,23 +1,22 @@
 <?php
-            include 'dbcon.php';
+include 'dbcon.php';
 
-            $id1 = $_GET['id'];
+$id1 = $_GET['id'];
 
-            $updatequery = "delete from dashboard_form where id=$id1";
-            $cn= mysqli_query($con, $updatequery);
-            if($cn){
-                ?>
-<script>
-alert("Deleted Successfully");
-</script>
+$updatequery = "delete from dashboard_form where id=$id1";
+$cn = mysqli_query($con, $updatequery);
+if ($cn) {
+?>
+    <script>
+        alert("Deleted Successfully");
+    </script>
 <?php
-                header('location: org_table.php');
-            }
-            else{
-                ?>
-<script>
-alert("Operation Not Completed .");
-</script>
+    header('location: org_table.php');
+} else {
+?>
+    <script>
+        alert("Operation Not Completed .");
+    </script>
 <?php
-            }
+}
 ?>
