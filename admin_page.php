@@ -76,7 +76,7 @@ th {
 }
 
 
-include 'org_conn.php';
+include 'org_con.php';
 $sql1 = " select * from org_form";
 $query1 = mysqli_query($con, $sql1);
 if ($query1) {

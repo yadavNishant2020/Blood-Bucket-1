@@ -142,8 +142,8 @@ alert("Not updated .");
                     <div class="orgField">
                         <label for="orgDesc">
                             <span>Any Underlying Health Condition:*</span>
-                            <textarea name="message" value="" id="orgDesc"
-                                required><?php echo $res['problem'] ?></textarea>
+                            <textarea name="message" value="" id="orgDesc" placeholder="<?php echo $res['problem'] ?>"
+                                required></textarea>
                         </label>
                     </div>
                     <div>

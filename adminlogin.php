@@ -31,7 +31,8 @@ if (isset($_POST['signinbtn'])) {
             $pass_decode = password_verify($spassword, $db_pass);
 
             if ($pass_decode) {
-                echo "login successful";
+                // echo "login successful";
+                // include './org_table.php';
                 header("location: org_table.php");
             } else {
                 echo " Password Incorrect ";
@@ -71,7 +72,7 @@ if (isset($_POST['signinbtn'])) {
     <footer>
     <div class="foot">
         <p>All Rights Reserved. &copy; 2021 Blood Bucket <a href="adminlogin.php">admin</a></p>
-
+        
     </div>
 </footer>
 </body>
