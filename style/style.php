@@ -1,4 +1,5 @@
 <style>
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 * {
@@ -156,11 +157,6 @@ ul li {
   color: #ffffff;
   cursor: pointer;
   font-weight: bold;
-}
-
-/* Search Result */
-#search-result {
-  /* display: none; */
 }
 
 .col-form-label p {
