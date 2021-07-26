@@ -121,7 +121,7 @@ ul li {
     font-size: 6rem;
 
     @media screen and (max: width 460px; ) {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 }
 
