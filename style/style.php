@@ -120,9 +120,7 @@ ul li {
 .left-home h1 {
     font-size: 6rem;
 
-    @media screen and (max: width 460px; ) {
-        font-size: 3rem;
-    }
+
 }
 
 .right-home {
