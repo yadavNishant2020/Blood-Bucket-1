@@ -377,16 +377,5 @@ ul li {
     color: #0b62d3;
 }
 
-@media screen and (max-width: 350px) {
-    .left-home h1 {
-        font-size: 3rem;
-    }
-}
-
-@media only screen and (max-width : 680px) {
-    .left-home h1 {
-        font-size: 3rem;
-    }
-
-}
+@media only screen and (max-width : 480px) {}
 </style>
