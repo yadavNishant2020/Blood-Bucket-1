@@ -45,7 +45,7 @@ if (isset($_POST['signinbtn'])) {
 ?>
 
 <body style="background-image: url(./assets/images/admin.jpeg); background-size: cover;">
-<header>
+    <header>
         <div class="navbar">
             <div class="logo">
                 <p><a href="./src/index.php">Blood Bucket</a></p>
@@ -70,11 +70,11 @@ if (isset($_POST['signinbtn'])) {
     </form>
 
     <footer>
-    <div class="foot">
-        <p>All Rights Reserved. &copy; 2021 Blood Bucket <a href="adminlogin.php">admin</a></p>
-        
-    </div>
-</footer>
+        <div class="foot">
+            <p>All Rights Reserved. &copy; 2021 Blood Bucket <a href="adminlogin.php">admin</a></p>
+
+        </div>
+    </footer>
 </body>
 
 </html>
