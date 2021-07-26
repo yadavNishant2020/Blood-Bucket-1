@@ -119,8 +119,6 @@ ul li {
 
 .left-home h1 {
     font-size: 6rem;
-
-
 }
 
 .right-home {
@@ -377,5 +375,12 @@ ul li {
 .foot a:hover {
     letter-spacing: 1px;
     color: #0b62d3;
+}
+
+@media only screen and (max-width : 480px) {
+    .left-home h1 {
+        font-size: 3rem;
+    }
+
 }
 </style>
